@@ -14,7 +14,7 @@ int main()
     sf::RenderWindow window(sf::VideoMode(1280, 700), "DVD-Screensaver");
     sf::Sprite sprite;
     sf::Texture texture;
-    texture.loadFromFile("/usr/games/dvd.png");
+    texture.loadFromFile("dvd.png");
     sprite.setTexture(texture);
     sprite.setScale(sf::Vector2f(0.15,0.15));
     sprite.setPosition(sf::Vector2f(x,y));
